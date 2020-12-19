@@ -1,0 +1,97 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: pink;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    max-width: 500px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: honeydew;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+
+.input {
+    padding: 5px;
+}
+
+.span {
+    font-size: 15px;
+}
+
+.button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px auto 0;
+}
+
+.images {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 120px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.img-box:last-child {
+    margin-right: 0;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid gray;    
+}
+
+.btn {
+    align-self: flex-end;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 50px;
+    padding: 4px 7px;
+    border: 1px solid gray;
+    background-color: rgb(197, 178, 178);
+}
+
+.mistake {
+    padding: 7px;
+    background-color: rgba(32, 30, 30, 0.753);
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 400px;
+    width: 120px;
+}
+
